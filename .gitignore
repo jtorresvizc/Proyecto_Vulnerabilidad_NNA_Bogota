@@ -1,0 +1,24 @@
+# Datos crudos
+data/raw/
+
+# Artefactos de sesión de R dentro de los datos
+**/.RDataTmp*
+**/.Rhistory
+
+# R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# renv: se versiona renv.lock, no la librería local
+renv/library/
+renv/local/
+renv/staging/
+renv/python/
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
